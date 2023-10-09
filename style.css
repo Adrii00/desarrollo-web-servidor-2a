@@ -1,0 +1,37 @@
+
+html{
+    background-color: #9af5ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+div{
+    display: flex;
+}
+table {
+    text-align: center;
+    margin: 2%;
+    background-color: #a9ffbf;
+    border-radius: 5px;
+    color: #292828;
+    border: solid black 3px;
+
+}
+
+td{
+    margin: 5%;
+    border-radius: 5px;
+}
+
+thead {
+    
+    background-color: #224eff;
+    color: #ffffff;
+}
+th{
+    border:solid black 2px;
+    border-radius: 5px;
+}
+tr:nth-child(even){
+    background-color: rgb(0, 136, 52);
+    color: #ffffff;
+}
